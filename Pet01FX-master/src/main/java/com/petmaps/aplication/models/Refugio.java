@@ -1,12 +1,12 @@
 package com.petmaps.aplication.models;
 
-public class RefugioO {
+public class Refugio {
     private String NombreRefugio;
     private String rfc;
     private String Ubicacion;
     private int Capacidad;
 
-    public RefugioO(String nombreRefugio, String rfc, String ubicacion, int capacidad) {
+    public Refugio(String nombreRefugio, String rfc, String ubicacion, int capacidad) {
         NombreRefugio = nombreRefugio;
         this.rfc = rfc;
         Ubicacion = ubicacion;

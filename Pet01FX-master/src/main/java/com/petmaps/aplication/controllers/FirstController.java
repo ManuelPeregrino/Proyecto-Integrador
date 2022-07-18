@@ -34,6 +34,7 @@ public class FirstController {
 
     @FXML
     void btnMapsOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("maps-view", "vista de mapas");
 
     }
 

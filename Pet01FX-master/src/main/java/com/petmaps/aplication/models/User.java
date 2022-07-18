@@ -1,11 +1,11 @@
 package com.petmaps.aplication.models;
 
-public class UserO {
+public class User {
     private String Nombre;
     private String Username;
     private String Password;
 
-    public UserO(String nombre, String username, String password) {
+    public User(String nombre, String username, String password) {
         Nombre = nombre;
         Username = username;
         Password = password;
